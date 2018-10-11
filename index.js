@@ -24,7 +24,7 @@ function currentLine(line){
   else if(line.length > 0){
     let i = 1;
     let numLine = [];
-    while(i < line.length){
+    while(i <= line.length){
     numLine.push(` ${i}. ${line[i-1]}, `);
     i++;
     }
