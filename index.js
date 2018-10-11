@@ -17,15 +17,15 @@ function nowServing(katzDeliLine){
 
 function currentLine(katzDeliLine){
 
-  if(line.length === 0){
+  if(katzDeliLine.length === 0){
     return 'The line is currently empty.';
     }
 
-  else if(line.length > 0){
+  else if(katzDeliLine.length > 0){
     let i = 1;
     let numLine = [];
-    while(i <= line.length){
-    numLine.push(` ${i}. ${line[i-1]}`);
+    while(i <= katzDeliLineline.length){
+    numLine.push(` ${i}. ${katzDeliLine[i-1]}`);
     i++;
     }
   return `The line is currently:${numLine}`;
