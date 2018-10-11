@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
   else if(katzDeliLine.length > 0){
     let i = 1;
     let numLine = [];
-    while(i <= katzDeliLineline.length){
+    while(i < katzDeliLineline.length){
     numLine.push(`${i}. ${katzDeliLine[i-1]}, `);
     i++;
     }
