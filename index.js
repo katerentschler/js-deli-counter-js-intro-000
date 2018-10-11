@@ -25,7 +25,7 @@ function currentLine(line){
     let i = 1;
     let numLine = [];
     while(i <= line.length){
-    numLine.push(` ${i}. ${line[i-1]}, `);
+    numLine.push(` ${i}. ${line[i-1]}`);
     i++;
     }
   return `The line is currently:${numLine}`;
